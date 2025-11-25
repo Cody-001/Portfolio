@@ -60,8 +60,5 @@ app.post("/", (req, res) => {
   });
 });
 
-app.listen(2000, () => {
-  console.log("Server listening on port 2000!");
-});
  
 module.exports = app;
