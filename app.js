@@ -4,6 +4,7 @@ const exphbs = require("express-handlebars");
 const nodemailer = require("nodemailer");
 const mailGun = require("nodemailer-mailgun-transport");
 const path = require("path");
+require ("dotenv").config()
 
 const app = express();
 
@@ -76,3 +77,9 @@ app.post("/", async (req, res) => {
 
 // Export app for serverless
 module.exports = app;
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});

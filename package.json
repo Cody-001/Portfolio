@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PheelzOfficial/tech-porfolio.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PheelzOfficial/tech-porfolio/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/PheelzOfficial/tech-porfolio#readme",
+  "homepage": "",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^4.18.2",
